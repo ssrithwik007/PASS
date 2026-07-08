@@ -1,0 +1,2 @@
+# PASS - Protect API keys & Secrets Scanner
+A security tool that scans files or GitHub repositories to detect accidentally exposed sensitive information such as API keys, passwords, tokens, and secret credentials.
