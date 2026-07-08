@@ -1,9 +1,5 @@
 # PASS - Protect API Keys & Secrets Scanner
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Active-success)
-
 PASS (Protect API Keys & Secrets Scanner) is a lightweight security tool that scans local projects and Git repositories for accidentally exposed secrets such as API keys, passwords, access tokens, private keys, and other sensitive credentials.
 
 Designed to integrate into a developer's workflow, PASS can scan an entire project or only the files staged for a Git commit, helping prevent secrets from being committed to source control.
