@@ -121,37 +121,37 @@ pip install -r requirements.txt
 ### Scan the current directory
 
 ```bash
-python pass.py
+python PASS/pass.py
 ```
 
 ### Scan a specific project
 
 ```bash
-python pass.py <path-to-project>
+python PASS/pass.py <path-to-project>
 ```
 
 Example:
 
 ```bash
-python pass.py D:\Projects\MyBackend
+python PASS/pass.py D:\Projects\MyBackend
 ```
 
 or
 
 ```bash
-python pass.py demo/vulnerable_project
+python PASS/pass.py demo/vulnerable_project
 ```
 
 ### Scan staged Git files
 
 ```bash
-python pass.py <path-to-git-repository> --staged
+python PASS/pass.py <path-to-git-repository> --staged
 ```
 
 Example:
 
 ```bash
-python pass.py D:\Projects\MyBackend --staged
+python PASS/pass.py D:\Projects\MyBackend --staged
 ```
 
 This scans only the files currently staged in the specified Git repository.
