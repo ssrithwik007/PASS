@@ -127,7 +127,7 @@ RULES = [
     {
         "name": "Bearer Token",
         "severity": "HIGH",
-        "pattern": re.compile(r"Bearer\s+[A-Za-z0-9\-._~+/]+=*")
+        "pattern": re.compile(r"Bearer\s+[A-Za-z0-9._~+/=-]{20,}")
     },
 
     # ==========================
